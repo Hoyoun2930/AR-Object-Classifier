@@ -7,10 +7,8 @@
 ![image](https://user-images.githubusercontent.com/62214506/78421480-0850bb00-7693-11ea-929e-e69af9c19251.png)
 
 ### CNN (Convolution Neural Network)
-<p align="center">
-![image](https://user-images.githubusercontent.com/62214506/78421533-5cf43600-7693-11ea-9335-67bcff85eb97.png)
+<div style="text-align:center"><img src="https://user-images.githubusercontent.com/62214506/78421533-5cf43600-7693-11ea-9335-67bcff85eb97.png" /></div>
 ![image](https://user-images.githubusercontent.com/62214506/78421535-5e256300-7693-11ea-9b3f-6b23708768ae.png)
-</p>
 
 연구의 목표 정확도와 학습 시간 등을 고려하였을 때 과도한 Deep Layer 구조는 불필요하다고 생각하여 3개의 Convolution Layer를 비롯한 Shallow Network로 구성하였다. 본 연구의 목표는 입력된 이미지가 AR인지 Real 이미지인지 판별하는 것이므로 2-class classification을 수행하게 된다. 따라서 본 CNN 구현에는 Binary Classification을 상정하고 Parameter 및 Layer 배치를 진행하였다. 학습 이미지는 300x300 해상도로 리사이징 되어 CNN에 입력되고, 여러 필터 레이어를 거쳐 최종적으로 Fully Connect Layer에 의해 Binary 값이 결과로 출력된다. 
 
