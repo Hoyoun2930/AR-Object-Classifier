@@ -22,9 +22,7 @@ CNN과 HNN을 통하여 학습된 두 가지 모델은 각각의 특장점이 �
 
 ## Result
    |CNN|HNN|Ensemble
-
 ---|---|---|---|
-
 Validation Accuracy|57.9%|85.9%|84.0%|
 Validation Loss|6.5526|0.4223|   |
 Test Accuracy|66.9%|83.0%|   |
