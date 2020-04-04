@@ -6,6 +6,8 @@
 ## Method
 ![image](https://user-images.githubusercontent.com/62214506/78421480-0850bb00-7693-11ea-929e-e69af9c19251.png)
 
+본 연구에서 제안한 모델의 전체적인 구성은 그림과 같다. 먼저 데이터 전처리 과정을 통해서 생성된 Train Data Set을 이용하여 CNN모델과 HNN 모델을 각각 학습한다. 그리고 학습된 두개의 모델을 이용하여 Ensembled Model을 구성한다.
+
 ### CNN (Convolution Neural Network)
 ![image](https://user-images.githubusercontent.com/62214506/78421533-5cf43600-7693-11ea-9335-67bcff85eb97.png)
 ![image](https://user-images.githubusercontent.com/62214506/78421535-5e256300-7693-11ea-9b3f-6b23708768ae.png)
