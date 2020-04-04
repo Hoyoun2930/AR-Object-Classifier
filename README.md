@@ -19,3 +19,13 @@ HNN 모델은 오브젝트의 히스토그램 데이터와 오브젝트를 제�
 
 ### Ensemble
 CNN과 HNN을 통하여 학습된 두 가지 모델은 각각의 특장점이 있다. 그래서 두 모델이 잘 구분해내는 AR 이미지의 특징이 다른데, 이 두 모델의 장점을 합쳐 발전시키고자, 본 연구에서는 가중치를 둔 보팅 (Weighted voting) [방법](http://doi.org/10.1109/IJCNN.2009.5178708)의 아이디어를 사용하였다. 
+
+## Result
+   |CNN|HNN|Ensemble
+
+---|---|---|---|
+
+Validation Accuracy|57.9%|85.9%|84.0%|
+Validation Loss|6.5526|0.4223|   |
+Test Accuracy|66.9%|83.0%|   |
+Test Loss|5.0457|0.7677|   |
